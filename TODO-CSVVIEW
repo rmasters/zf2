@@ -1,0 +1,6 @@
+Todo for release of csv view model extension:
+
+External/Zend implementation of CSV building
+A builder for when ViewModel is not used
+Docblock
+Testing
