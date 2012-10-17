@@ -61,6 +61,8 @@ class ServiceListenerFactory implements FactoryInterface
             'ViewFeedStrategy'        => 'Zend\Mvc\Service\ViewFeedStrategyFactory',
             'ViewJsonRenderer'        => 'Zend\Mvc\Service\ViewJsonRendererFactory',
             'ViewJsonStrategy'        => 'Zend\Mvc\Service\ViewJsonStrategyFactory',
+            'ViewCsvRenderer'         => 'Zend\Mvc\Service\ViewCsvRendererFactory',
+            'ViewCsvStrategy'         => 'Zend\Mvc\Service\ViewCsvStrategyFactory',
             'ViewManager'             => 'Zend\Mvc\Service\ViewManagerFactory',
             'ViewResolver'            => 'Zend\Mvc\Service\ViewResolverFactory',
             'ViewTemplateMapResolver' => 'Zend\Mvc\Service\ViewTemplateMapResolverFactory',
