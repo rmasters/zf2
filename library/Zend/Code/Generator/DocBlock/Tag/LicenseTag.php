@@ -71,6 +71,9 @@ class LicenseTag extends Tag
      */
     public function generate()
     {
+        $output = '@license'
+            . (($this->url != null) ? ' ' . $this->url : '')
+            . (($this->description != null) ? ' ' . $this->description : '');
         return $output;
     }
 
